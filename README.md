@@ -2,7 +2,7 @@
 DNS for KubeVirt VirtualMachines secondary interfaces
 
 ## Prerequisites
-1. The KubeSecondaryDNS Deployment should be reachable from outside the cluster.  
+1. The KubeSecondaryDNS Deployment should be reachable from outside the cluster via port 5353.  
 It can be exposed using NodePort, Load Balancer, Ingress or any other methodology.  
 The IP to reach the KubeSecondaryDNS from outside the cluster would be called from now on  
 "KubeSecondaryDNS public IP".
